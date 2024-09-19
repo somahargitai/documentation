@@ -4,7 +4,7 @@
 
 _node package manager, node version manager_
 
-(https://nodejs.org/en/download/package-manager)[https://nodejs.org/en/download/package-manager]
+(<https://nodejs.org/en/download/package-manager)[https://nodejs.org/en/download/package-manager>]
 
 ## Frontend
 
@@ -47,3 +47,20 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 ```
+
+## Embed Unity game
+
+create a unity game and build it for WebGL. Copy the build files to the public folder of the frontend.
+
+```bash
+cp -r build ../frontend/public
+```
+
+## Run the project
+
+```bash
+cd frontend
+npm start
+```
+
+Open the browser and go to `http://localhost:3000` to see the react app and the unity game.
