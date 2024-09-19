@@ -4,7 +4,7 @@
 
 _node package manager, node version manager_
 
-(<https://nodejs.org/en/download/package-manager)[https://nodejs.org/en/download/package-manager>]
+[https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 
 ## Frontend
 
